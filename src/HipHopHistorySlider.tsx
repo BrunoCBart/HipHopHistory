@@ -18,6 +18,7 @@ function HipHopHistorySlider ({ hipHopHistory }: { hipHopHistory: HipHopHistory[
 
   useEffect(() => {
     const slider: any = document.querySelector('.slider')
+    const slides = document.querySelectorAll('.slide')
 
     const getPositionX = (e: any) => {
       return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX
@@ -40,24 +41,22 @@ function HipHopHistorySlider ({ hipHopHistory }: { hipHopHistory: HipHopHistory[
 
     const handleTouchStart = (index:number) => {
       return (e: any) => {
-        console.log('start')
         currentIndex = index
         startPos = getPositionX(e)
         isDragging = true
         animationId = requestAnimationFrame(animation)
+        slides[currentIndex].classList.add('grabbing')
       }
     }
 
     const handleTouchMove = (e: any) => {
       if (isDragging) {
-        console.log('move')
         const currentPosition = getPositionX(e)
         currentTranslate = prevTranslate + currentPosition - startPos
       }
     }
 
     const handleTouchEnd = () => {
-      console.log('end')
       isDragging = false
       cancelAnimationFrame(animationId)
       const movedBy = currentTranslate - prevTranslate
@@ -69,11 +68,10 @@ function HipHopHistorySlider ({ hipHopHistory }: { hipHopHistory: HipHopHistory[
       if (movedBy > 100 && currentIndex > 0) {
         currentIndex--
       }
-
+      slides[currentIndex].classList.remove('grabbing')
       setPositionByIndex()
     }
     const sliderEvents = () => {
-      const slides = document.querySelectorAll('.slide')
       slides.forEach((slide: any, index: number) => {
         const slideImage = slide.querySelector('img')
         slideImage.addEventListener('dragstart', (e: React.TouchEvent) => e.preventDefault())

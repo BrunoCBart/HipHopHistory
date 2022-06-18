@@ -17,6 +17,7 @@
   justify-content: center;
   padding: 0 0.5rem;
   cursor: url("https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur"), default !important;
+  transition: transform 0.3s ease-out;
 }
 
 .slide-container {
@@ -43,6 +44,6 @@
   cursor: grabbing;
 }
 
-.grabbing.slide img {
+.grabbing.slide {
   transform: scale(0.9);
 }

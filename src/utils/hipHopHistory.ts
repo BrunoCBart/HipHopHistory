@@ -49,5 +49,11 @@ export const hipHopHistory = [
     content: `Afrika Bambaataa foi um desses djs convertidos, ele morava na parte oeste do Bronx,
     uma área muito perigosa naquela época, cheia de gangues, muitas pessoas tinham medo
     de entrar nessa vizinhança, o próprio Bambaataa disse “We was no joke”, a gente não era nenhuma piada!`
+  },
+  {
+    image: '',
+    content: `Bambaataa visualizou um comunidade que acreditava na paz, amor e em se divertir, ele a
+    chamou de “Universal Zulu Nation”, que procurava unificar as comunidades e não segrega-las.
+    Ele convenceu os “Black Spades” a começar a Zulu Nation que foi instrumental para acabar com muita violência que corria naquela época..`
   }
 ]
