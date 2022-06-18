@@ -37,7 +37,7 @@
   max-width: 400px;
   object-fit: cover;
   margin-bottom: 1rem;
-  max-height: 220px;
+  max-height: 200px;
 }
 
 .grabbing {
@@ -46,4 +46,10 @@
 
 .grabbing.slide {
   transform: scale(0.9);
+}
+
+@media screen  and (min-width: 768px) {
+  .slide img {
+    max-height: 300px;
+  }
 }
