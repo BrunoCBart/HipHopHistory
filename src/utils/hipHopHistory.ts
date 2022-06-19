@@ -1,4 +1,6 @@
-export const hipHopHistory = [
+import { HipHopHistory } from '../interfaces/HipHopHistory'
+
+export const hipHopCulture: HipHopHistory[] = [
   {
     image: 'https://images.unsplash.com/photo-1581417478175-a9ef18f210c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
     content: `Nova York foi a marco zero do hip hop, mas antes disso,
@@ -55,5 +57,37 @@ export const hipHopHistory = [
     content: `Bambaataa visualizou um comunidade que acreditava na paz, amor e em se divertir, ele a
     chamou de “Universal Zulu Nation”, que procurava unificar as comunidades e não segrega-las.
     Ele convenceu os “Black Spades” a começar a Zulu Nation que foi instrumental para acabar com muita violência que corria naquela época..`
+  },
+  {
+    image: '',
+    content: `Quando eles formaram a Zulu Nation, as pessoas começaram a querer colocar suas vidas no rumo, e a música/dança foi uma das maneiras
+     em que elas conseguiram fazer isso, as pessoas começaram a praticar Graffiti, MC’ing, DJ’ing, cada um encontrava sua maneira de liberar qualquer
+    estresse que elas estavam acumulando.`
+  },
+  {
+    image: 'https://i.scdn.co/image/209a279a487c5e74a12d3ab3741c6b79295f8842',
+    content: `Enquanto isso no lado sul do Bronx tinha um cinetista maluco afiando o que Kool Herc e Bambaataa haviam iniciado.
+    Ele era conhecido como “Grandmaster Flash”.`
+  },
+  {
+    image: '',
+    content: 'Grandmaster percebeu que as chances de colocar a agulha do vinil na posição certa do disco era muito baixa, muitos djs colocavam toda sua atenção no braço do vinil, e, muitas vezes o som ficava fora do ritmo, ele sabia que deveria existir um jeito melhor.'
+  },
+  {
+    image: '',
+    content: `Então depois de tentar muitas coisas diferentes, ele colocou o dedo no vinil…
+    Ele soltou, colocou o dedo, soltou, colocou o dedo, e disse para si mesmo, “Eu tenho total controle do vinil!"`
+  },
+  {
+    image: '',
+    content: 'Mas o problema e taboo, era de que você não pode tocar no vinil, pois você o  danifica com o tempo, mas, ele achou que esse era o único jeito de fazer isso, de ter controle total do break ao girar o vinal no lado reverso.'
+  }
+
+]
+
+export const hipHopDance: HipHopHistory[] = [
+  {
+    image: 'https://www.hiphoptrends.com/wp-content/uploads/2019/10/Kool-Herc-1.jpg',
+    content: 'Kool Herc foi um dos primeiros breakdancers, ele era um '
   }
 ]
