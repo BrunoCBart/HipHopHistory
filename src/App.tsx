@@ -7,11 +7,6 @@ function App () {
   const [hipHistory, setHipHistory] = useState<HipHopHistory[]>([])
   let load = 0
 
-  const onCultureClick = () => {
-    const audio = new Audio('/sounds/funk_drum_loop.mp3')
-    audio.play()
-    audio.volume = 0.1
-  }
   useEffect(() => {
     const bg: any = document.querySelector('.main')
     const loadingText: any = document.querySelector('.loading-text')
@@ -24,6 +19,7 @@ function App () {
         if (load > 100) {
           clearInterval(int)
           loadingText.remove()
+          bg.classList.remove('blur')
           return
         }
 
@@ -37,7 +33,7 @@ function App () {
   }, [])
 
   return (
-  <section className="main">
+  <section className="main blur">
     <span className="loading-text">0%</span>
     {hipHistory.length === 0
       ? (<header className="header">
@@ -49,7 +45,6 @@ function App () {
         role="button"
         onClick={() => {
           setHipHistory(hipHopCulture)
-          onCultureClick()
         }}>
           <p>Cultura</p>
       </div>

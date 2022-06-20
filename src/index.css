@@ -32,7 +32,10 @@ body {
   z-index: -1;
   top: 0;
   left: 0;
-  filter: blur(0);
+}
+
+.blur {
+  filter: blur(100px);
 }
 
 .header {
