@@ -5,16 +5,16 @@ export const hipHopCulture: HipHopHistory[] = [
     image: 'https://images.unsplash.com/photo-1581417478175-a9ef18f210c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
     content: `Nova York foi a marco zero do hip hop, mas antes disso,
     no começo dos anos 60, 70 era o Disco que estava quente,
-    celebridades, artistas, atletas todo mundo adoravam Disco,
-    todo mundo se vestia da melhor maneira possível para frequentar as festas.`
+    celebridades, artistas, atletas, todo mundo adorava Disco,
+    as pessoas se vestiam da melhor maneira possível para frequentar as festas.`
   },
   {
     image: '',
     content: `Enquanto isso o Bronx estava pegando fogo… Literalmente,
     no South Bronx era como se tivesse uma guerra acontecendo.
-    Quarteirões estavam acabados, prédios destruídos e tinha detroços por toda parte.
+    Quarteirões estavam acabados, prédios destruídos, tinha detroços por toda parte.
     A população estava em decadência, pais solteiros e vivendo com ajuda do governo,
-    as pessoas estavam desempregradas, e muitas áreas eram muito perigosas para se viver.`
+    as pessoas estavam desempregradas, e, muitas áreas eram perigosas demais para viver.`
   },
   {
     image: 'https://images.unsplash.com/photo-1601643157091-ce5c665179ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
@@ -35,7 +35,7 @@ export const hipHopCulture: HipHopHistory[] = [
   },
   {
     image: '',
-    content: 'Aquelas crianças nas festas de Kool Herc não se tornaram apenas b-boys eles foram os primeiros convertidos a cultura do hip hop.'
+    content: 'As crianças nas festas de Kool Herc não se tornaram apenas b-boys eles foram os primeiros convertidos a cultura do hip hop.'
   },
   {
     image: '',
@@ -44,7 +44,7 @@ export const hipHopCulture: HipHopHistory[] = [
   },
   {
     image: 'https://thesource.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-16-at-10.58.00-AM-634x400.png',
-    content: 'Kool Herc não sabia, mas, ele estava plantando uma semente na mente das pessoas, ele as estava inspirando a tocar suas faixas e dançarem ao som delas, com isso, o hip hop foi crescendo.'
+    content: 'Kool Herc não sabia, mas, ele estava plantando uma semente na mente das pessoas, ele as estava inspirando tocar suas faixas e dançarem ao som delas, com isso, o hip hop foi crescendo.'
   },
   {
     image: 'https://music-b26f.kxcdn.com/wp-content/uploads/2016/04/afrika-bambaataa-abuse-allegation-1024x1024.png',
@@ -56,7 +56,7 @@ export const hipHopCulture: HipHopHistory[] = [
     image: '',
     content: `Bambaataa visualizou um comunidade que acreditava na paz, amor e em se divertir, ele a
     chamou de “Universal Zulu Nation”, que procurava unificar as comunidades e não segrega-las.
-    Ele convenceu os “Black Spades” a começar a Zulu Nation que foi instrumental para acabar com muita violência que corria naquela época..`
+    Ele convenceu os “Black Spades” a começar a Zulu Nation que foi instrumental para acabar com muita violência que corria naquela época.`
   },
   {
     image: '',
@@ -76,11 +76,15 @@ export const hipHopCulture: HipHopHistory[] = [
   {
     image: '',
     content: `Então depois de tentar muitas coisas diferentes, ele colocou o dedo no vinil…
-    Ele soltou, colocou o dedo, soltou, colocou o dedo, e disse para si mesmo, “Eu tenho total controle do vinil!"`
+    soltou, colocou o dedo, soltou, colocou o dedo, a música parava, e continuava, disse para si mesmo, “Eu tenho total controle do vinil!"`
   },
   {
     image: '',
     content: 'Mas o problema e taboo, era de que você não pode tocar no vinil, pois você o  danifica com o tempo, mas, ele achou que esse era o único jeito de fazer isso, de ter controle total do break ao girar o vinal no lado reverso.'
+  },
+  {
+    image: '',
+    content: 'O próprio toca discos se transformou em um instrumento!'
   }
 
 ]

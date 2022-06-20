@@ -10,7 +10,7 @@ function App () {
   const onCultureClick = () => {
     const audio = new Audio('/sounds/funk_drum_loop.mp3')
     audio.play()
-    audio.volume = 0.3
+    audio.volume = 0.1
   }
   useEffect(() => {
     const bg: any = document.querySelector('.main')

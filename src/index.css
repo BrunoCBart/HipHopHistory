@@ -48,6 +48,7 @@ body {
   z-index: 1;
   background-color: rgba(0 0 0 / 50%);
   filter: blur(0);
+  padding: 1rem;
 }
 
 .loading-text {
