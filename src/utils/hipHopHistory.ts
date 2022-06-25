@@ -1,9 +1,10 @@
 import { HipHopHistory } from '../interfaces/HipHopHistory'
+const cultureImgsPath = '../../images/culture'
 
 export const hipHopCulture: HipHopHistory[] = [
   {
-    image: 'https://images.unsplash.com/photo-1581417478175-a9ef18f210c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-    content: `Nova York foi a marco zero do hip hop, mas antes disso,
+    image: `${cultureImgsPath}/disco-culture-1.avif`,
+    content: `Nova York foi a marco zero do Hip Hop, mas antes disso,
     no começo dos anos 60, 70 era o Disco que estava quente,
     celebridades, artistas, atletas, todo mundo adorava Disco,
     as pessoas se vestiam da melhor maneira possível para frequentar as festas.`
@@ -17,25 +18,25 @@ export const hipHopCulture: HipHopHistory[] = [
     as pessoas estavam desempregradas, e, muitas áreas eram perigosas demais para viver.`
   },
   {
-    image: 'https://images.unsplash.com/photo-1601643157091-ce5c665179ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
-    content: 'Foi nesse ponto de estresse que algo surgiu do nada em meio ao caos, foi o ínicio do hip hop...'
+    image: `${cultureImgsPath}/hip-hop-culture-2.avif`,
+    content: 'Foi nesse ponto de estresse que algo surgiu do nada em meio ao caos, foi o ínicio do Hip Hop...'
   },
   {
     image: '',
-    content: `Kool Herc é o cara que alegadamente organizou a primeira festa de hip hop, porque?
+    content: `Kool Herc é o cara que alegadamente organizou a primeira festa de Hip Hop, porque?
     Por causa das faixas que Herc tocava, e como ele tocava essas faixas,
     ele queria tocar música Funk, e em todas elas era prevalente o breakdown,
     onde se tinha os Drums, ou, o Drums com o Bass.
     Toda música que ele tocava tinha um breakdown onde o baterista era o protagonista.`
   },
   {
-    image: 'https://video-images.vice.com/articles/5bf4700ff1074a0007173234/lede/1542746164441-RickyFlores_southbronxphotos092.jpeg?crop=1xw%3A0.8193xh%3B0xw%2C0.0529xh&resize=2000%3A*',
+    image: `${cultureImgsPath}/first-b-boys-culture-3.webp`,
     content: `Foi ai então que surgiram os breakdancers, nomeados assim pois estavam dançando
     ao som de break, eles queria ser como James Brown, trabalhando o footwork, foi assim que b-boying começou.`
   },
   {
     image: '',
-    content: 'As crianças nas festas de Kool Herc não se tornaram apenas b-boys eles foram os primeiros convertidos a cultura do hip hop.'
+    content: 'As crianças nas festas de Kool Herc não se tornaram apenas b-boys eles foram os primeiros convertidos a cultura do Hip Hop.'
   },
   {
     image: '',
@@ -43,11 +44,11 @@ export const hipHopCulture: HipHopHistory[] = [
     todos daquele grupo.`
   },
   {
-    image: 'https://thesource.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-16-at-10.58.00-AM-634x400.png',
-    content: 'Kool Herc não sabia, mas, ele estava plantando uma semente na mente das pessoas, ele as estava inspirando tocar suas faixas e dançarem ao som delas, com isso, o hip hop foi crescendo.'
+    image: `${cultureImgsPath}/kool-herc-culture-4.png`,
+    content: 'Kool Herc não sabia, mas, ele estava plantando uma semente na mente das pessoas, ele as estava inspirando tocar suas faixas e dançarem ao som delas, com isso, o Hip Hop foi crescendo.'
   },
   {
-    image: 'https://music-b26f.kxcdn.com/wp-content/uploads/2016/04/afrika-bambaataa-abuse-allegation-1024x1024.png',
+    image: `${cultureImgsPath}/afrika-bambaataa-culture-5.webp`,
     content: `Afrika Bambaataa foi um desses djs convertidos, ele morava na parte oeste do Bronx,
     uma área muito perigosa naquela época, cheia de gangues, muitas pessoas tinham medo
     de entrar nessa vizinhança, o próprio Bambaataa disse “We was no joke”, a gente não era nenhuma piada!`
@@ -65,7 +66,7 @@ export const hipHopCulture: HipHopHistory[] = [
     estresse que elas estavam acumulando.`
   },
   {
-    image: 'https://i.scdn.co/image/209a279a487c5e74a12d3ab3741c6b79295f8842',
+    image: `${cultureImgsPath}/grandmaster-flash-culture-6.jpeg`,
     content: `Enquanto isso no lado sul do Bronx tinha um cinetista maluco afiando o que Kool Herc e Bambaataa haviam iniciado.
     Ele era conhecido como “Grandmaster Flash”.`
   },
@@ -85,6 +86,10 @@ export const hipHopCulture: HipHopHistory[] = [
   {
     image: '',
     content: 'O próprio toca discos se transformou em um instrumento!'
+  },
+  {
+    image: '',
+    content: 'Kool Herc, Afrika  Bambaataa e GrandMaster Flash tocaram um papel essencial na criação da base do Hip Hop, por tocarem break beats para as pessoas dançarem, eles foram tão importante que a comunidade Hip Hop os chama de “Holy Trinity”, “Santíssima Trindade”.'
   }
 
 ]
