@@ -90,6 +90,15 @@ export const hipHopCulture: HipHopHistory[] = [
   {
     image: '',
     content: 'Kool Herc, Afrika  Bambaataa e GrandMaster Flash tocaram um papel essencial na criação da base do Hip Hop, por tocarem break beats para as pessoas dançarem, eles foram tão importante que a comunidade Hip Hop os chama de “Holy Trinity”, “Santíssima Trindade”.'
+  },
+  {
+    image: '',
+    content: `Mas quando as pessoas pensam em Hip Hop, as pessoas não imaginam beats, brakes e drums,
+    elas imaginam, RAP.`
+  },
+  {
+    image: '',
+    content: 'Então do Disco surgiu o rei do RAP, DJ Hollywood, um dos primeiros a cantar rap rítmico, ele foi inspirado por Frankie Crocker, The Last Poets e Pigmeat Markhan'
   }
 
 ]
