@@ -1,5 +1,5 @@
 import { HipHopHistory } from '../interfaces/HipHopHistory'
-const cultureImgsPath = '../../images/culture'
+const cultureImgsPath = '/static/images/culture'
 
 export const hipHopCulture: HipHopHistory[] = [
   {

@@ -99,14 +99,14 @@ body {
 }
 
 .culture-theme {
-  background-image: url("../images/Kool-Herc-culture.webp");
+  background-image: url("/static/images/Kool-Herc-culture.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .dance-theme {
-  background-image: url("../images/break-dancer-dance.avif");
+  background-image: url("/static/images/break-dancer-dance.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
